@@ -1,6 +1,8 @@
+__This is not a real project, it's a dummy project with deliberate bugs to evaluate core testing competencies__
+
 # Testing Phonetic Matching
 
-This repo has some code for using a python phonetic matching package to match words. Should mean "Jon" and "John" match! Perhaps this can be used to do better person name matching?
+This repo has some code for using a python phonetic matching package to match words. Should mean "Jon" and "John" match! Perhaps this can be used as a component for better person or organisation name matching?
 
 ## Usage
 
