@@ -21,4 +21,16 @@ def test_match_list_tracks_ids():
     assert merged["James"] == [0, 1, 4]
     assert merged["Sam"] == [2, 3]
 
-#a change
+def test_possessive():
+    assert match("John", "John's")
+
+def test_lowercase():
+    assert match("Sam", "sam")
+
+def test_shortform():
+    assert match("Sam", "Samuel")
+
+def test_seans():
+    assert match('Shaun', 'Sean')
+    assert match('Shawn', 'Shawne')
+    assert match('Shawn', 'Sean')
